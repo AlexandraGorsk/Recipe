@@ -88,6 +88,9 @@ height: 518px;
     border: 1px solid #fff;
     border-radius: 8px;
 }
+img {
+    cursor: pointer;
+}
  img.lastimg{
     filter: opacity(40%);
 }
