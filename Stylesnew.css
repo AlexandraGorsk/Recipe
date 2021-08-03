@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 1400px;
+    width: 1439px;
+    margin: auto;
+    background: rgb(240, 240, 240);
+}
+header {
+    background-color: #fff;
+    height: 80px;
+    border-radius: 0 0 8px 8px;
+    padding-left: 83px;
+    padding-right: 82px;
+    display: flex;
+    justify-content: space-between;
+    gap: 201px;
+}
+.logo img{
+    padding:10px 30px 21px 30px;
+    box-shadow: 0 0 5px 2px gray;
+    border-radius: 0px 0px 10px 10px;
+}
+.logo {
+    background: #FFF;
+    height: 111px;
+    width: 144px;
+}
+.line{
+    margin: 59px auto 20px;
+    background-color : #a8a8a8;
+   width: 581px;
+   height: 1px;
+   border-radius: 0.5px;
+}
+.left {
+    margin-left: 68px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.wrapper {
+        max-width: 1439px;
+        height: 1400px;
+        margin: 50px 81px 48px 80px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+}
+aside {
+    padding: 25px;
+    width: 338px;
+    height: 378px;
+    background-color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.ingredient {
+    width: 953px;
+    height: 378px;
+    background-color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+.HowToCook {
+    width: 953px;
+height: 518px;
+    background-color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+.Additional {
+    width: 953px;
+  height: 279px;
+    background-color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+ img.lastimg{
+    filter: opacity(40%);
+}
