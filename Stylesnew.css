@@ -73,13 +73,17 @@ main {
     background-color: #FFF;
     border: 1px solid #fff;
     border-radius: 8px;
+    padding: 25px;
 }
 .HowToCook {
     width: 953px;
-height: 518px;
+    height: 518px;
     background-color: #FFF;
     border: 1px solid #fff;
     border-radius: 8px;
+    padding: 25px;
+    display: flex;
+    gap: 32px;
 }
 .Additional {
     width: 953px;
@@ -87,10 +91,97 @@ height: 518px;
     background-color: #FFF;
     border: 1px solid #fff;
     border-radius: 8px;
+    padding: 25px;
 }
 img {
     cursor: pointer;
 }
  img.lastimg{
     filter: opacity(40%);
+}
+.ingredienthead{
+    display: flex;
+    gap: 48px;
+}
+h3{
+    color: #030F09;
+font: 700 24px 'Nunito', sans-serif;
+height: 64px;
+width: 382px;
+}
+.edit p{
+    margin-top: 14px;
+    color: #30BE76;;
+    font: 700 16px 'Nunito', sans-serif;
+    background: #fff;
+    margin-left: 159px;
+    cursor: pointer;
+}
+button {
+    width: 158px;
+    height: 48px;
+    background: #30BE76;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font: 400 16px 'Nunito', sans-serif;
+    cursor: pointer;
+    border: 1px solid #30BE76;
+}
+.line {
+    background: #E6E6E6;
+    margin: 20px auto;
+    width: 905px;
+    height: 1px;
+    }
+h5 {
+        font: 700 16px 'Nunito', sans-serif;
+        color: #030F09;
+        margin-bottom: 23px;
+    }
+.ingredient ul {
+        column-count: 2;
+        list-style: none;
+    }
+.ingredient ul li{
+    font: 400 14px 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    }
+.ingredient ul li img{
+    margin-bottom: 10px;
+    }
+.ingredient ul li span{
+    margin-left: 15px;
+}
+.description h5 {
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+.HowToCook ul{
+    list-style: none;
+}
+.video img{
+    height: 262px;
+    width: 444px;
+    margin-top: 63px;
+    border-radius: 10px;
+}
+.HowToCook ul li:before{
+    content: counter(parts);
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: transparent;
+    border: 1px solid #30BE76;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    color: #30BE76;
+    font: 400 12px 'Nunito', sans-serif;
+  }
+.HowToCook ul li{
+    font: 400 14px 'Nunito', sans-serif;
+    counter-increment: parts;
+    margin-bottom: 20px;
 }
