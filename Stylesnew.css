@@ -25,6 +25,7 @@ header {
     border-radius: 0px 0px 10px 10px;
 }
 .logo {
+    cursor: pointer;
     background: #FFF;
     height: 111px;
     width: 144px;
@@ -93,11 +94,25 @@ main {
     border-radius: 8px;
     padding: 25px;
 }
-img {
+aside img {
     cursor: pointer;
 }
  img.lastimg{
+    cursor: auto;
     filter: opacity(40%);
+}
+.moreimg {
+    width: 79px;
+    height: 81px;
+    position: relative;
+}
+aside span{
+    cursor: pointer;
+    position: absolute;
+    top: 29px;
+    left: 25px;
+    font: 700 16px 'Nunito', sans-serif;;
+    color: #030F09;
 }
 .ingredienthead{
     display: flex;
@@ -160,6 +175,9 @@ h5 {
 .HowToCook ul{
     list-style: none;
 }
+.video {
+    position: relative;
+}
 .video img{
     height: 262px;
     width: 444px;
@@ -180,6 +198,14 @@ h5 {
     text-align: center;
     color: #30BE76;
     font: 400 12px 'Nunito', sans-serif;
+  }
+  img.play {
+      cursor: pointer;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: 107px;
+      right: 197px;
   }
 .HowToCook ul li{
     font: 400 14px 'Nunito', sans-serif;
