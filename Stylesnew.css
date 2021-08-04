@@ -43,12 +43,12 @@ header {
     gap: 30px;
 }
 .wrapper {
-        max-width: 1439px;
-        height: 1400px;
-        margin: 50px 81px 48px 80px;
-        display: flex;
-        gap: 20px;
-        justify-content: space-between;
+    max-width: 1439px;
+    height: 1400px;
+    margin: 50px 81px 48px 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
 }
 aside {
     padding: 25px;
@@ -105,9 +105,9 @@ img {
 }
 h3{
     color: #030F09;
-font: 700 24px 'Nunito', sans-serif;
-height: 64px;
-width: 382px;
+    font: 700 24px 'Nunito', sans-serif;
+    height: 64px;
+    width: 382px;
 }
 .edit p{
     margin-top: 14px;
@@ -127,26 +127,26 @@ button {
     cursor: pointer;
     border: 1px solid #30BE76;
 }
-.line {
+.ingredient div.line {
     background: #E6E6E6;
     margin: 20px auto;
     width: 905px;
     height: 1px;
     }
 h5 {
-        font: 700 16px 'Nunito', sans-serif;
-        color: #030F09;
-        margin-bottom: 23px;
-    }
+    font: 700 16px 'Nunito', sans-serif;
+    color: #030F09;
+    margin-bottom: 23px;
+}
 .ingredient ul {
-        column-count: 2;
-        list-style: none;
-    }
+    column-count: 2;
+    list-style: none;
+}
 .ingredient ul li{
     font: 400 14px 'Nunito', sans-serif;
     display: flex;
     align-items: center;
-    }
+}
 .ingredient ul li img{
     margin-bottom: 10px;
     }
@@ -155,7 +155,7 @@ h5 {
 }
 .description h5 {
     margin-left: 5px;
-    margin-bottom: 7px;
+    margin-bottom: 32px;
 }
 .HowToCook ul{
     list-style: none;
@@ -170,12 +170,13 @@ h5 {
     content: counter(parts);
     width: 20px;
     height: 20px;
-    line-height: 20px;
+    line-height: 30px;
     background: transparent;
     border: 1px solid #30BE76;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 10px;
+    vertical-align: middle;
+    margin-right: 20px;
     text-align: center;
     color: #30BE76;
     font: 400 12px 'Nunito', sans-serif;
@@ -185,3 +186,49 @@ h5 {
     counter-increment: parts;
     margin-bottom: 20px;
 }
+.Additional h5 {
+    margin-bottom: 30px;
+}
+.time ul li:first-child:before{
+    content: 'Serving Time (±) ';
+    font: 400 14px 'Nunito', sans-serif;
+    color: #A8A8A8;
+    margin-right: 24px;
+  }
+  
+  .facts ul li:not(:first-child){
+    margin-left: 131px;
+  }
+  .facts ul li:first-child:before{
+    content: 'Nutrition Facts ';
+    font: 400 14px 'Nunito', sans-serif;
+    color: #A8A8A8;
+    margin-right: 36px;
+  }
+  ul{
+    margin-bottom: 25px;
+  }
+  ul li{
+    margin-bottom: 4px;
+    list-style-type:none;
+    font: 400 14px'Nunito', sans-serif;
+    color: #030F09;
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    gap:172px;
+  }
+  .tags ul li:first-child:before{
+    content: 'Tags ';
+    font: 400 14px 'Nunito', sans-serif;
+    color: #A8A8A8;
+    margin-right: 98px;
+  }
+  .tags ul li{
+    width: 310px;
+    margin-right: 24px;
+    
+ 
+  
+  
